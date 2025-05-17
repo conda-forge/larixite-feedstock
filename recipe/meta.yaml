@@ -1,5 +1,5 @@
 {% set name = "larixite" %}
-{% set version = "2024.10.0" %}
+{% set version = "2025.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/larixite-{{ version }}.tar.gz
-  sha256: baf728ae1d388af720e9cef109027ad8895cf61c5e65d1cf9e59caa1a98c46d5
+  sha256: 8fd3c9ba9644f345d0e43fd5009131058ea6b933840c6c1742e95204d550067c
 
 build:
   noarch: python
